@@ -1,5 +1,6 @@
 package com.taotao.service;
 
+import com.taotao.common.pojo.EasyUIGridData;
 import com.taotao.pojo.TbItem;
 
 /**
@@ -8,5 +9,7 @@ import com.taotao.pojo.TbItem;
  * @projectname taotaoparent
  */
 public interface ItemService {
-    public TbItem getItemById(Long itemId);
+    TbItem getItemById(Long itemId);
+    //根据前台传的页码和当前页显示条数查询所有商品列表：
+    EasyUIGridData getItemList(Integer page,Integer rows);
 }
