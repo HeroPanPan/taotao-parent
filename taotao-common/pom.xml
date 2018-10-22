@@ -14,6 +14,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <!-- 添加依赖 -->
     <dependencies>
+        <dependency>
+            <groupId>com.taotao</groupId>
+            <artifactId>taotao-manager-fastdfsclient</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!-- 时间操作组件 -->
         <dependency>
             <groupId>joda-time</groupId>
