@@ -2,7 +2,6 @@ import com.github.pagehelper.PageHelper;
 import com.taotao.mapper.TbItemMapper;
 import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbItemExample;
-import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -15,7 +14,7 @@ import java.util.List;
  */
 public class TestPageHelper {
 
-    @Test
+    //@Test
     public void testPageHelper() {
         ApplicationContext ac = new ClassPathXmlApplicationContext("spring/applicationContext-*.xml");
 
