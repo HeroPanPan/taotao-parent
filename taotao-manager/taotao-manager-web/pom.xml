@@ -18,6 +18,12 @@
             <artifactId>taotao-manager-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.taotao</groupId>
+            <artifactId>taotao-manager-fastdfsclient</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <!-- JSP相关 -->
         <dependency>
             <groupId>jstl</groupId>
